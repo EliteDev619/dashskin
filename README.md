@@ -1,0 +1,2 @@
+# BotCsgoroll
+ bot do csgoroll

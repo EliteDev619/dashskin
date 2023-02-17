@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Dash Skin",
+    "description": "Dash Skin Extension",
+    "version": "1.0",
+    "permissions": [
+        "background"
+    ],
+    "background": {
+        "scripts": [
+            "assets/js/background.js"
+        ]
+    },
+    "content_scripts": [{
+        "matches": [
+            "https://dashskins.com.br/*"
+        ],
+        "js": [
+            "assets/js/jquery.min.js",
+            "assets/js/dashskins.js"
+        ]
+    }]
+}
